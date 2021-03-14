@@ -1,9 +1,9 @@
 import REACT from 'react';
 import PropTypes from 'prop-types';
 
-const AddMovieMenu = ({ style }) => {
+const AddMovieMenu = ({ style, addMovieController }) => {
   return (
-    <button style={style}>+ ADD MOVIE</button>
+    <button onClick={addMovieController} style={style}>+ ADD MOVIE</button>
   )
 }
 
