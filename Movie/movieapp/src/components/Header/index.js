@@ -4,10 +4,10 @@ import AddMovie from './AddMovie'
 import styles from './styles';
 import PropTypes from 'prop-types';
 
-const Header = ({ addMovieController }) => {
+const Header = ({ addMovieController}) => {
   return (
     <div style={styles.mainContainer}>
-      <AddMovie style={styles.addMovieButton} addMovieController={addMovieController} />
+      <AddMovie style={styles.addMovieButton} addMovieController={addMovieController}/>
       <div style={styles.searchArea}>
         <div>FIND YOUR MOVIE</div>
         <div style={styles.SearchBar}>
